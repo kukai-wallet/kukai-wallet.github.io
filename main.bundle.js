@@ -4118,7 +4118,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var OperationService = /** @class */ (function () {
     function OperationService(http) {
         this.http = http;
-        this.nodeURL = 'http://node.tzscan.io';
+        this.nodeURL = 'https://node.tzscan.io';
         this.prefix = {
             tz1: new Uint8Array([6, 161, 159]),
             edpk: new Uint8Array([13, 15, 37, 217]),
