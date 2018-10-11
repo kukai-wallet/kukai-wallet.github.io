@@ -388,6 +388,10 @@ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 Base64 <-> Uint8Array conversion tools harvested from MDN
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Base64_encoding_and_decoding
 
+big.js@5.1.2
+MIT
+MIT
+
 pbkdf2@3.0.14
 MIT
 The MIT License (MIT)
