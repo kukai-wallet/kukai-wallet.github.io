@@ -87,6 +87,8 @@ THE SOFTWARE.
 
 @angular/material/sort
 
+@angular/material/tabs
+
 @angular/platform-browser
 MIT
 
