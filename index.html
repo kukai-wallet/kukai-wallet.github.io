@@ -1,14 +1,23 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>Kukai</title>
-  <base href="/">
+<!DOCTYPE html>
+<!-- Redirect to wallet until landing page is deployed -->
+<html>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-<link rel="stylesheet" href="styles.e37b5921d8de6311a742.css"></head>
-<body>
-  <app-root></app-root>
-<script src="runtime-es2015.c5fa8325f89fc516600b.js" type="module"></script><script src="runtime-es5.c5fa8325f89fc516600b.js" nomodule defer></script><script src="polyfills-es5.f794f22ee485cffd9383.js" nomodule defer></script><script src="polyfills-es2015.2802f15fd5acee6dbc26.js" type="module"></script><script src="scripts.859e64cef1ef944f8beb.js" defer></script><script src="main-es2015.e18ba67b2c3a9c219bc2.js" type="module"></script><script src="main-es5.e18ba67b2c3a9c219bc2.js" nomodule defer></script></body>
+<head>
+	<meta http-equiv="refresh" content="0; url=https://wallet.kukai.app">
+</head>
+
+<body onload="fallback()">
+	<div id="content" style="display: none;">
+		<p>This page has moved to:</p>
+		<a href="https://wallet.kukai.app">wallet.kukai.app</a>
+	</div>
+	<script>
+		function fallback() {
+			setTimeout(function () {
+				document.getElementById("content").style.display = "block";
+			}, 3000);
+		}
+	</script>
+</body>
+
 </html>
